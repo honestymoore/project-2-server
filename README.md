@@ -5,7 +5,7 @@ Welcome! For my full-stack application, I have created a gun tracker based off C
 ![COD Gun Tracker (1)](https://user-images.githubusercontent.com/113128158/214409671-bef5a8b3-b061-4ee3-aebf-ca43628c9912.jpg)
 
 ## Technologies Used 
-HTML, CSS, Javascript, Express, Mongodb, Mongoose, Cors, Passport, Passport_JWT, Jsonwebtoken, and Bycrypt
+HTML, CSS, Javascript, Express, Mongodb, Mongoose, Cors, Passport, Passport_JWT, Jsonwebtoken, and Bcrypt
 
 ## Next Steps
 Version 1: 
