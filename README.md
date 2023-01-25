@@ -27,7 +27,8 @@ As a user I want to be able to...
     - have the avatar be styled with a "favorite" gun
 
 ## ERD Screenshot
-![COD Gun Tracker (2)](https://user-images.githubusercontent.com/113128158/214409694-43c25727-bbb7-497c-b821-92c33b3ef831.jpg)
+![COD Gun Tracker (3)](https://user-images.githubusercontent.com/113128158/214606361-25851b8d-d04f-46ff-9daa-6a62d29a6f0f.jpg)
+
 
 ## Routes Table 
 ### /guns
