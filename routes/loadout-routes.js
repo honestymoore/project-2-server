@@ -44,14 +44,14 @@ router.post('/loadouts', (req, res, next) => {
 // Patch /loadouts/
 router.patch('/loadouts/:id', (req, res, next) => {
 
-    const characterID = req.body.loadout.characterID
-    delete req.body.loadout.characterID
+    const gunID = req.body.loadout.gunID
+    delete req.body.loadout.gunID
 
 	Loadout.findById(req.params.id)
 		.then(handle404)
 		.then((loadout) => {
-            if (characterID){
-                loadout.characters.push(characterID)
+            if (gunID){
+                loadout.guns.push(gunID)
 
                 loadout.save()
             }

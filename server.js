@@ -30,6 +30,8 @@ app.use('/seed', gunSeed)
 app.use(requestLogger)
 app.use(gunRoutes)
 app.use(loadoutRoutes)
+app.use(noteRoutes)
+app.use(userRoutes)
 
 app.listen(PORT, () => {
     console.log('listening on ' + PORT)
