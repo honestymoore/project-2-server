@@ -46,7 +46,7 @@ router.patch('/loadouts/:id', (req, res, next) => {
 
     const gunID = req.body.loadout.gunID
     delete req.body.loadout.gunID
-
+     
 	Loadout.findById(req.params.id)
 		.then(handle404)
 		.then((loadout) => {

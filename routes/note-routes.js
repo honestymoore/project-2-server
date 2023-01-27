@@ -2,23 +2,23 @@ const express = require('express')
 
 const router = express.Router()
 
-const Campaign = require('../models/campaign')
+const Note = require('../models/note')
 const { handle404 } = require('../lib/custom-errors')
 
 // CREATE
 // POST /notes/
 router.post('/notes', (req, res, next) => {
-	const campaignId = req.body.note.campaignId
+	const noteId = req.body.note.noteId
 
-	Campaign.findById(campaignId)
+	Note.findById(noteId)
 		.then(handle404)
-		.then((campaign) => {
-			campaign.notes.push(req.body.note)
+		.then((note) => {
+			note.notes.push(req.body.note)
 
-			return campaign.save()
+			return note.save()
 		})
 
-		.then((campaign) => res.status(201).json({ campaign: campaign }))
+		.then((note) => res.status(201).json({ note: note }))
 		.catch(next)
 })
 
