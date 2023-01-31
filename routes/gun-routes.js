@@ -10,6 +10,7 @@ const router = express.Router()
 //Get /guns
 router.get('/guns', (req, res, next) => {
     Gun.find()
+        // 'owner': req.user._id
         .then(guns => {
             return guns.map(gun => gun)
         })
@@ -49,6 +50,7 @@ router.patch('/guns/:id', (req, res, next) => {
             return gun.updateOne(req.body.gun)
         })
         .then(() => res.sendStatus(204))
+        .then(() => refreshPage())
         .catch(next)
 })
 
