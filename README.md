@@ -5,26 +5,26 @@ Welcome! For my full-stack application, I have created a gun tracker based off C
 ![COD Gun Tracker (1)](https://user-images.githubusercontent.com/113128158/214409671-bef5a8b3-b061-4ee3-aebf-ca43628c9912.jpg)
 
 ## Technologies Used 
-HTML, CSS, Javascript, Express, Mongodb, Mongoose, Cors, Passport, Passport_JWT, Jsonwebtoken, and Bcrypt
+HTML, CSS(Bootstrap), Javascript, Express, Mongodb, Mongoose, Cors, Passport, Passport_JWT, Jsonwebtoken, and Bcrypt
 
 ## Next Steps
 Version 1: 
 As a user I want to be able to...
-    - add a gun
-    - delete a gun
-    - update a gun 
-    - login and logout
-    - sign up
+    * add a gun
+    * delete a gun
+    * update a gun 
+    * login and logout
+    * sign up
 
 Version 2: 
 As a user I want to be able to...
-    - have COD themed music playing in the background
-    - have an avatar connected to the user
+    * have COD themed music playing in the background
+    * have an avatar connected to the user
 
 Version 3:
 As a user I want to be able to...
-    - see each gun with an image of the gun when hitting "Show Gun"
-    - have the avatar be styled with a "favorite" gun
+    * see each gun with an image of the gun when hitting "Show Gun"
+    * have the avatar be styled with a "favorite" gun
 
 ## ERD Screenshot
 ![COD Gun Tracker (3)](https://user-images.githubusercontent.com/113128158/214606361-25851b8d-d04f-46ff-9daa-6a62d29a6f0f.jpg)
